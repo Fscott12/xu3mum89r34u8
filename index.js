@@ -14,12 +14,11 @@ app.get('/', (req, res) => {
   res.send('YaY Your Bot Status Changed✨');
 });
 app.listen(port, () => {
-  console.log(`🔗 Listening to Robin NTW : http://localhost:${port}`);
-  console.log(`🔗 Powered By Robinayush`);
+  console.log(`🔗 Listening to Holiday Inn`);
 });
 
 
-const statusMessages = ["Watching Voxo Studios","Get Started With /help","Your Discord Developement Buddy","voxo01.github.io/bot","Use Code VOXOV30R"];
+const statusMessages = ["Watching Holiday Inn","DM Holiday Inn Helpline for support","Hosting a shift for holiday inn"];
 
 
 let currentIndex = 0;
